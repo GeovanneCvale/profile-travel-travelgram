@@ -1,0 +1,48 @@
+#profile{
+    display: flex;
+    justify-content: space-between;
+    padding-block:32px;
+    align-items: center;
+    font: var(--text-md);
+}
+
+#main{
+    width: 592px;
+    display: flex;
+    gap: 32px;
+}
+
+#main img{
+    width: 176px;
+    height: 176px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+#about{
+    max-width: 384px;
+}
+
+#name{
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+    margin-bottom: 8px;
+}
+
+
+#info{
+    width: 280px;
+}
+
+#info ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#info ul li{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
