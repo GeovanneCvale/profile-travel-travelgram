@@ -1,0 +1,16 @@
+footer div{
+    padding-block: 24px;
+    display: flex;
+    justify-content: space-between;
+    font: 14px/150% var(--font-family);
+}
+
+footer div ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+footer div ul li{
+    padding: 4px;
+}
